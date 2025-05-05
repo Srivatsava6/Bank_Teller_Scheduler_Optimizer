@@ -1,6 +1,6 @@
-# 🏦 Bank Teller Scheduling Optimizer
+#  Bank Teller Scheduling Optimizer
 
-## 👥 Team Members:
+## Team Members:
 - Srivatsava Chinnasamy Kamaraj  srivatsava.chinnasamykamaraj.24@neoma-bs.com
 - Manibalan Amaranathan  manibalan.amarnathan.24@neoma-bs.com
 
@@ -11,7 +11,7 @@
 We used **ChatGPT by OpenAI** to assist in reviewing and formatting our algorithm, clarifying Python syntax, and ensuring modular design.  
 > 🧠 **However, the core logic, constraints, and pruning approach are fully original and uniquely developed by me(Srivatsava)** based on our understanding of the problem. Same question given to chatgpt will give you different ouput and combinations.
 
-## 📘 Project Overview
+## Project Overview
 
 This project is inspired by a classic **linear programming problem** from:
 
@@ -21,7 +21,7 @@ The specific problem comes from the **Hong Kong Bank of Commerce and Industry** 
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 Instead of using mathematical solvers, we built a **brute-force algorithm** combined with a **custom pruning strategy** that intelligently eliminates invalid or suboptimal combinations early. This lets us explore a large solution space **efficiently using only core Python** (loops, conditionals, dictionaries).
 
@@ -32,7 +32,7 @@ While more optimal approaches (e.g., LP solvers) exist, our implementation empha
 
 ---
 
-## 📌 Problem Description
+## Problem Description
 
 - Bank requires **10–18 tellers per hour**, depending on the time.
 - **Full-time tellers** work from **9 AM to 5 PM**, with a **1-hour lunch break** staggered between 12–2 PM.
@@ -45,7 +45,7 @@ While more optimal approaches (e.g., LP solvers) exist, our implementation empha
 
 ---
 
-## 💡 Constraints Implemented
+## Constraints Implemented
 
 - Each full-timer costs **$100/day**
 - Each part-timer costs **$8/hour = $32/day**
@@ -55,7 +55,7 @@ While more optimal approaches (e.g., LP solvers) exist, our implementation empha
 
 ---
 
-## 🧮 Example Demand Input used
+## Example Demand Input used
 
 Hour 9:00 - 10:00 → 10
 Hour 10:00 - 11:00 → 12
@@ -66,7 +66,7 @@ Hour 14:00 - 15:00 → 17
 Hour 15:00 - 16:00 → 15
 Hour 16:00 - 17:00 → 10
 
-## 📤 Output Includes
+## Output Includes
 
 - ✅ Best staffing schedule
 - 💰 Total cost of staffing
